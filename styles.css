@@ -115,6 +115,9 @@ section {
 #projetos {
     background-color: #5005F2; 
 }
+#projetos a {
+    color: #020659; /* Use o azul-claro para que os links se destaquem no fundo roxo */
+}
 
 #contato {
     background-color: #0D0D0D; 
@@ -157,6 +160,7 @@ section h2 {
     font-size: 1.6em;
     line-height: 1.5;
     margin-bottom: 30px;
+   
 }
 
 .cta-button {
@@ -270,7 +274,7 @@ footer h2 {
 
 
 .contact-info a {
-    color: #5C82F2;
+    color: #5005F2;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -410,6 +414,7 @@ footer h2 {
     .linguagem-item p {
         font-size: 0.9em;
     }
+
     @media (max-width: 868px) {
     #contato .contact-info {
         gap: 15px;
@@ -428,4 +433,5 @@ footer h2 {
         height: 1.5em; 
     }
 }
+
 }
